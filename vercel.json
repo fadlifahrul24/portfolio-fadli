@@ -4,7 +4,8 @@
     "builds": [
         {
             "src": "api/index.php",
-            "use": "@vercel/php"
+            "use": "@vercel/php",
+            "config": { "maxDuration": 60 }
         }
     ],
     "routes": [
